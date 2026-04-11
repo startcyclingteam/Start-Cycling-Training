@@ -40,9 +40,11 @@ a{text-decoration:none;color:inherit}
 }
 .hero-bg::before{width:360px;height:360px;left:-80px;top:70px;background:#60c7ff}
 .hero-bg::after{width:420px;height:420px;right:-80px;top:-80px;background:#245dff}
-.hero-grid{
-  position:relative;display:grid;grid-template-columns:1.05fr .95fr;
-  gap:48px;padding:52px 0 72px;
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 .eyebrow,.section-eyebrow,.overlay-eyebrow{
   display:inline-block;width:fit-content;border:1px solid rgba(87,199,255,.30);
